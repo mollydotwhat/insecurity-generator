@@ -2,7 +2,10 @@
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword(){
-  
+  var allLettersLow;
+  var allLettersUp;
+  var specialCharList;
+  var intList;
   //prompt (write to page or pop up??) w/criteria choices
   //get password criteria from choices:
     //prompt choosing password length bwtn 8 & 128
@@ -23,32 +26,23 @@ function generatePassword(){
     }
     getLength();
     //set length variable
-    
-  
-    // ask about this list of character types: lowercase, uppercase, numeric, and/or special characters
+   
     var charTypes;
-    function charOptions(){
+    function allOptions(){
       charTypes = prompt("Choose character types:");
-      //put a list to select from in the prompt
+       
+       // ask about this list of character types: lowercase, uppercase, numeric, and/or special characters
+      //select from intList and allCharsUp and allCharsDown and specialChars.
+      //add all selections to an array
       //put into array
       return charTypes;
     }
-    charOptions();
+    allOptions();
    
-
-
-
-    //create array/object of length thingLength
-var finalWord;
-function mixingBowl(){
-    //numbers array
-    //letters array (just a list, use split)
-    //special characters array (list? using split again?)
-//for each until thingLength - 1 (because index starts at 0), from prev defined parameter arrays
-return finalWord;
-};
-  
-
+  function mixingBowl(){
+    //add generate array finalWord from array allOptions of length thingLength
+  return finalWord;
+}; 
   //return statement? i think
   return finalWord;
 }
