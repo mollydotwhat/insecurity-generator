@@ -30,17 +30,20 @@ function generatePassword(){
     var charTypes;
     function allOptions(){
       charTypes = prompt("Choose character types:");
-       
-       // ask about this list of character types: lowercase, uppercase, numeric, and/or special characters
-      //select from intList and allCharsUp and allCharsDown and specialChars.
-      //add all selections to an array
-      //put into array
-      return charTypes;
+      //maybe var yesNo to use in an if/else deciding whether to add that array to the answer array???
+      // how many prompts can I put in a variable? Do I really have to figure out how to do the modal dialog thing for this?
+      //lowercase y/n. if y, add that array to answer array
+      // uppercase y/n. same
+      // integers y/n. same
+      //special characters y/n. same
+      // charTypes = answers array.
+      return charTypes; //or something? i think i need it to be a variable in a wider/maybe global scope.
     }
     allOptions();
    
   function mixingBowl(){
     //add generate array finalWord from array allOptions of length thingLength
+    // for 
   return finalWord;
 }; 
   //return statement? i think
