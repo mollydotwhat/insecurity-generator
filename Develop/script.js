@@ -2,10 +2,10 @@
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword(){
-  var allLettersLow;
-  var allLettersUp;
+  var allLettersLow= ["abcdefghijklmnopqrstuvwxyz"]; //find split function for this
+  var allLettersUp = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"]; //again, neet to split
   var specialCharList;
-  var intList;
+  var intList = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
   //prompt (write to page or pop up??) w/criteria choices
   //get password criteria from choices:
     //prompt choosing password length bwtn 8 & 128
