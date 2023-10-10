@@ -1,6 +1,12 @@
-# 03 JavaScript: Password Generator
+# Don't use this to create a password
 
-## Your Task
+## I'll complete it later
+
+### even if it was working it is a terrible way to generate a password
+
+<!-- 03 JavaScript: Password Generator -->
+
+<!-- ## Your Task
 
 This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
@@ -97,4 +103,4 @@ You are required to submit the following for review:
 * The URL of the GitHub repository, with a unique name and a readme describing the project.
 
 - - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved. -->
