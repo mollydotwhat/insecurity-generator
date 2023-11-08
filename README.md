@@ -4,6 +4,8 @@
 
 ### even if it was working it is a terrible way to generate a password
 
+the (terrible) code is literally in the script.js file. it exists; it just doesn't work. 
+
 <!-- 03 JavaScript: Password Generator -->
 
 <!-- ## Your Task
