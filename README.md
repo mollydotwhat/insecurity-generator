@@ -11,5 +11,5 @@ Create a password generator, taking parameters from user input.
 
 
 
-![Preview image](./assets/passgenscreenshot.png)
+![Preview image](./passgenscreenshot.png)
 
