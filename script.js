@@ -76,7 +76,7 @@ function mixingBowl(){
 }
 mixingBowl();
 // this join should be removing the commas and it isn't. i don't know why and i'm tired of trying different methods to make this work. NOT worth the time i've wasted on it.
-yourPass = finalWord.join();
+yourPass = finalWord.join("");
 return yourPass;
   };
 
